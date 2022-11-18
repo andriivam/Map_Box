@@ -1,6 +1,6 @@
 import mapboxgl from "mapbox-gl";
 import * as dotenv from 'dotenv';
-console.log(process.env.MAPBOX_API_KEY)
+
  const formAddress = document.getElementById("formAddress");
 // adding event listener to our form
         formAddress.addEventListener("submit", (e) => {
